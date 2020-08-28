@@ -66,7 +66,7 @@ logo = """ ▄︻┻═┳一 ЩєLc๏Mє ┼๏ ┼ђє Fąş┼єş┼ єVєr
            ▄︻┻═┳一 ---- FєєL ┼ђє P๏Щєr   --------🔴🔴
 	          ЩєLc๏Mє ┼๏ ЦЙLIMI┼єđ cL๏ЙIЙG
   
- ██ ▄█               WhatsApp: 03430195175
+ ██ ▄█               WhatsApp: 0014406281533
                         ABIcreation
                      ▇◤▔▔▔▔▔▔▔◥▇
                      ▇▏◥▇◣┊◢▇◤▕▇
@@ -95,8 +95,8 @@ def tik():
 
 
 back = 0
-berhasil = []
-cekpoint = []
+berhasil = [ok]
+open = []
 oks = []
 id = []
 listgrup = []
@@ -118,15 +118,15 @@ print  """\033[1;91m
                      ▇▇◣◥▅▅▅◤◢▇▇
                      ▇▇▇◣╲▇╱◢▇▇▇
                      ▇▇▇▇◣▇◢▇▇▇▇
-                   WhatsApp : 03430195175
+                   WhatsApp : 0014406281533
 \033[1;96mAuthor  \033[1;93m: \033[1;92mabi
 \033[1;96mInstagram \033[1;93m: \033[1;92mtechnicalcyber
 \033[1;96mFacebook  \033[1;93m: \033[1;92m periodicerror998
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation/abicreation
-\033[1;91mYoutube \033[1;93m:\033[1;92m
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/abicreation/saratricker
+\033[1;91mYoutube \033[1;93m:\033[1;92mhttps://www.youtub.com/UCDKRvmw7ufXejkYXG51liKA
 print " \x1b[1;93m===========================https://www.youtube.com/channel/UCDKRvmw7ufXejkYXG51liKA================================="
 
-CorrectUsername = "abi"
+CorrectUsername = "saratricker"
 CorrectPassword = "creation"
 
 loop = 'true'
@@ -459,7 +459,7 @@ Password"creation"
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;96m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed abid says Thank You♥️ \033[1;97m....' using my command 
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed sara tricker says Thank You♥️ \033[1;97m....' using my command 
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(Secuessfully)
 	print("\033[1;96m[+] \033[1;92mTHANKS FOR USING MY COMMANDS ! WE WILL BE RIGHT BACK \033[1;91m: \033[1;97mout/Secuessfully.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
